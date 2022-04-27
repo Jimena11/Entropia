@@ -96,7 +96,19 @@ li {
     text-align: center; 
     padding: 1rem 0 1rem 0;
     color: black;
+    animation-name: cambio_color;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
     }
+
+    /*ANIMACIÓN*/
+
+@keyframes cambio_color {
+    from {background-color: rgba(128, 128, 128, 0.425);}
+    to {background-color: rgba(32, 174, 193, 0.907);
+    }
+}
 
 .navcontacto {
     color: rgb(86, 86, 86);
@@ -186,6 +198,13 @@ li {
     padding: 10px;
     margin-bottom: 30px;
     margin-left: 10px;
+}
+
+/*TRANSICIÓN*/
+
+.caracteristica:hover {
+    transform: scale(1.2);
+    background-color: rgb(167, 235, 225);
 }
 
 .cardbody {
@@ -305,3 +324,6 @@ li {
         opacity: 95%;
     }
 
+    .gradiente_pie{
+        background-image: linear-gradient(to left,black , rgb(99, 98, 98));
+    }
