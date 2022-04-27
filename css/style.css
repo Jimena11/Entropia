@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "poppins"; sans-serif;
+    font-style: normal;
+    line-height: 1.8;
+    }
+
+.encabezado1 {
+    font-size: 40px;
+    color: rgb(19, 115, 118);
+}
+
+.encabezado2 {
+    font-size: 20px;
+    color: rgb(28, 145, 149);
+}
+
+.subtitulo1 {
+    font-size: 20px;
+    color: rgb(78, 84, 84);
+}
+
+.subtitulo2 {
+    font-size: 10px;
+    color: rgb(24, 122, 122);
+}
+
+.pie { 
+    text-align: right;
+    padding: 0rem 2rem 1rem 2rem;
+    font-weight: 700;
+    font-size: 100%;
+    font-family: "poppins"; sans-serif;
+    background-color: black;
+    color:white;
+}
+
+.logo_rs {
+    width: 5%;
+    padding: 1rem;
+    opacity: 75%;
+}
+.logo_rs:hover, .logo_rs:focus {
+    opacity: 75%;
+}
+
+header {
+    background-color: rgb(18, 129, 141);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 60px;
+    margin-bottom: 20px;
+    }
+
+.logoentropia {
+    width: 60%;
+}
+
+.nav_link { 
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav_link:hover, .nav_link:focus { 
+    opacity: 0.55;
+}
+
+nav {
+    width: 90%;
+    align-items: center;
+    }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    }
+
+li {
+    border: red;
+    margin: 2px;
+    
+}
+
+.login:hover, .login:focus {
+    opacity: 0.50;
+}
+
+.contactanos {
+    background-color: rgba(128, 128, 128, 0.425);
+    text-align: center; 
+    padding: 1rem 0 1rem 0;
+    color: black;
+    }
+
+.navcontacto {
+    color: rgb(86, 86, 86);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navcontacto:hover, .navcontacto { 
+    opacity: 0.50;
+}
+
+    .linkcontacto { 
+        color: black;
+        text-transform: uppercase;
+    }
+
+    .contacto:hover, .contacto:focus {
+        opacity: 0.85;
+}
+.empresa {
+    width: 30%;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    }
+
+.empresatitulo {
+    height: 20;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+}
+
+.logo_empresa {
+    padding: 0.5rem;
+    width: 25%;
+    height: 20%;
+    display: inline; 
+    size: 20
+}
+
+.imagenbody {
+    width: 40%;
+    height: 20;
+    display: inline-block;
+    
+}
+
+.bannerimagen {
+    width: 100%;
+    height: 20%;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url(../imagenes/manos.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+
+.bannertitulo {
+    position: relative;
+    text-align: left;
+}
+
+.cardlogo {
+    width: 35%;
+    height: 5;
+}
+
+.cardcaratectistica {
+    width: 400px;
+    height: 30;
+    text-align: center;
+    display: inline;
+    background-color: blue;
+    border: red;
+    border: solid cornflowerblue 1px;
+}
+
+.caracteristica {
+    width: 250px;
+    border: solid cornflowerblue 1px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.cardbody {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+}
+
+.imagenbody {
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+    top:20px;
+    }
+
+.textbody {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    text-align: justify;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    }
+
+    .fotoMember {
+        width: 200px;
+        height: 200px;
+    }
+
+    .faq {
+        height: 200px;
+    }
+
+    .pregunta {
+        background-color: rgb(101, 31, 215);
+        color: white;
+        height: 50px;
+        padding: 10px;
+        font-size: x-large;
+        opacity: 40%;
+    }
+
+    .respuesta {
+        font-style: italic;
+        font-size: large;
+        font-weight: bolder;
+    }
+
+    .bannerfaq {
+        height: 600px;
+        width: 100%;
+
+    }
+
+    .backfaq { 
+        background-image: url(../imagenes/faqs.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
+        background-position: left;
+        background-position:bottom;
+    }
+
+    .banneraplicacion {
+        height: 500px;
+        width: 100%;
+    }
+
+    .boton {
+        width: 300px;
+        height: 50px;
+        color:white;
+        background-color: black;
+        border-radius: 40px;
+        border-color: black;
+        font-size: larger;
+        }
+
+        .disponible {
+        width: 350px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .disponible_2 {
+        width: 350px;
+        height: 120px;
+        display: inline-block;
+    }
+
+    .formulario {
+        font-size: x-large;
+        background-color: rgba(32, 170, 175, 0.24);
+        font-weight:bold;
+        width: 700px;
+        height: 1000px;
+        text-align: left;
+        padding: 40px;
+    }
+
+    .botoncontacto {
+        width: 300px;
+        height: 50px;
+        color:white;
+        background-color: rgb(1, 166, 166);
+        border-radius: 40px;
+        border-color: none;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .bannercontacto {
+        height: 700px;
+        width: 100%;
+        opacity: 95%;
+    }
+
